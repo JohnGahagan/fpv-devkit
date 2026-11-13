@@ -27,7 +27,7 @@ Because of the last two, this repo has `git config core.fileMode false` and `cor
 | gh | 2.46.0 |
 | GNU Make | 4.4.1 |
 | Arm toolchain (Betaflight, `make arm_sdk_install`) | Arm GNU Toolchain 13.3.Rel1 (gcc 13.3.1) |
-| Betaflight | commit 141dd74 (2026-11-12), firmware version 2026.12.0 |
+| Betaflight | commit 141dd74 (2026-11-12), firmware version 2026.12.0 (development build from master, not a release) |
 | ArduPilot | commit eec26ae (2026-11-12) |
 | MAVProxy / pymavlink / wxPython (ArduPilot venv) | 1.8.75 / 2.4.50 / 4.3.2 |
 | pymavlink / pyserial (repo venv) | 2.4.50 / 3.5 |
@@ -41,7 +41,7 @@ BetaFPV has three G473 configs: `BETAFPVG473`, `BETAFPVG473_V2` and `BETAFPVG473
 They differ only in board-revision pin details: flash CS is PB9 on V1 and PC13 on V2 and V3; V3 adds gyro CLKIN and a VTX power switch.
 **Built: `BETAFPVG473_V2`.** The physical board revision is not yet known, so **check the board's silkscreen or BetaFPV's product page before flashing.** The wrong variant boots but has dead peripherals.
 
-Output: `obj/betaflight_2026.12.0_STM32G474_BETAFPVG473_V2.hex` (1,108,022 bytes), copied to `~/fpv-share/firmware/`.
+Output: `obj/betaflight_2026.12.0_STM32G474_BETAFPVG473_V2.hex` (1,108,022 bytes; 2026.12.0 is a development build from master, not a release), copied to `~/fpv-share/firmware/`.
 
 ## What failed and how it was fixed
 

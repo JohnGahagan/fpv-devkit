@@ -1,0 +1,19 @@
+status
+MCU: STM32G474xx CLK=168MHz (PLLR-HSE), Vref=3.30V, Core temp=63degC
+STACK: 2048b (0x2001fff0)
+CONFIG: CONFIGURED (4109b / 8192b)
+
+DEVICES DETECTED: SPI=1, I2C=0 (0 errors)
+GYRO: (1) BMI270 enabled locked dma
+ACC: BMI270
+OSD: MAX7456 (30 x 13)
+FLASH: JEDEC ID=0x00852018 16M
+
+BUILD KEY: 3fcfddcd33eae651632dee98e6eeb2f5 (2026.6.0-alpha)
+
+System Uptime: 128 seconds, Current Time: 2026-11-13T23:02:21.566+00:00
+CPU:37%, cycle time: 318, GYRO rate: 3144, RX rate: 0, System rate: 9
+Voltage: 0.72V (0S battery - NOT PRESENT)
+Arming disable flags: RXLOSS CLI MSP DSHOT_TELEM
+
+# 

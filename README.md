@@ -18,7 +18,7 @@ Firmware versions as shipped, and after each change, are recorded in [`hardware.
 ## Progress
 
 - [ ] **0. Tools and first build:** build Betaflight from source; fly a simulated ArduPilot mission
-- [ ] **1. Tour the flight controller:** Configurator tabs, UARTs, CLI
+- [ ] **1. Tour the flight controller:** Configurator tabs, UARTs, CLI *(in progress: factory config captured, see [`notes/stage-01.md`](notes/stage-01.md))*
 - [ ] **2. Flash:** release build, then my own build with a visible change
 - [ ] **3. Motors and ESCs:** DShot, Bluejay, RPM filtering
 - [ ] **4. Radio and link:** EdgeTX models, ExpressLRS binding and settings, CRSF, failsafe
